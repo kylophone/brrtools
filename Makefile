@@ -1,10 +1,3 @@
-#for windows compilation
-#CC=i686-w64-mingw32-gcc.exe
-#FLAGS=--std=c99 -m32 -lm -Wall -fdata-sections -ffunction-sections -s -Os
-# add this to flags to inspect generated assembly
-# -save-temps -fverbose-asm -masm=intel
-
-#for linux compilation
 CC=gcc
 FLAGS=--std=c99 -lm -Wall -fdata-sections -ffunction-sections -s -Os
 
